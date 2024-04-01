@@ -44,7 +44,7 @@ export const roomDetails = [
     bedSizes: "King Size",
     maxAdultsCapacity: 2,
     children: 0,
-    guest: "1 Adult",
+    guest: "2 Adults",
     fascilities: ["swimming pool", "gym", "spa"],
     bookingLinks: [{ expedia: "url3" }, { hotelscom: "url4" }],
   },
