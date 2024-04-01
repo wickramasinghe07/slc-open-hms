@@ -123,13 +123,13 @@ const SearchBar = () => {
                     <Select
                       labelId="demo-simple-select-standard-label"
                       id="guest"
-                      defaultValue={searchParams.get("Guest")?.toString()}
-                      onChange={(e) => handleSelect("Guest", e.target.value)}
+                      defaultValue={searchParams.get("guest")?.toString()}
+                      onChange={(e) => handleSelect("guest", e.target.value)}
                       label="Guest"
                     >
                       <MenuItem value="1 Adult">1 Adult</MenuItem>
                       <MenuItem value="2 Adults">2 Adults</MenuItem>
-                      <MenuItem value="2 Adults & 1 child">
+                      <MenuItem value="2 Adults 1 child">
                         2 Adults & 1 child
                       </MenuItem>
                     </Select>
@@ -146,8 +146,8 @@ const SearchBar = () => {
                     <Select
                       labelId="demo-simple-select-standard-label"
                       id="beds"
-                      defaultValue={searchParams.get("Beds")?.toString()}
-                      onChange={(e) => handleSelect("Beds", e.target.value)}
+                      defaultValue={searchParams.get("beds")?.toString()}
+                      onChange={(e) => handleSelect("beds", e.target.value)}
                       label="Beds"
                     >
                       <MenuItem value="1 single Queen">1 single Queen</MenuItem>
