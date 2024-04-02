@@ -34,7 +34,7 @@ const HotelRooms = ({
   useEffect(() => {
     const query = searchParams.get("query") || "";
     const roomType = searchParams.get("roomType") || "";
-    const bedSizes = searchParams.get("bedSizes") || "";
+    const bedSizes = searchParams.get("beds") || "";
     const guest = searchParams.get("guest") || "";
 
     // Filter rooms based on query and selected values
